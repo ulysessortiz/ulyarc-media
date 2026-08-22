@@ -1,5 +1,5 @@
 [build]
-  command = "test -f ULYARC_HQ_IV_LIVING_MIRROR_NETLIFY_READY.zip && rm -rf .netlify-dist && mkdir -p .netlify-dist && unzip -q -o ULYARC_HQ_IV_LIVING_MIRROR_NETLIFY_READY.zip -d .netlify-dist"
+  command = "test -f ULYARC_HQ_IV_LIVING_MIRROR_TYPOGRAPHY_PASS_NETLIFY_READY.zip && rm -rf .netlify-dist && mkdir -p .netlify-dist && unzip -q -o ULYARC_HQ_IV_LIVING_MIRROR_TYPOGRAPHY_PASS_NETLIFY_READY.zip -d .netlify-dist"
   publish = ".netlify-dist"
 
 [[headers]]
